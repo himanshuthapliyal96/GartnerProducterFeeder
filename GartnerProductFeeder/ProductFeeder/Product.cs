@@ -10,6 +10,17 @@ namespace GartnerProductFeeder.ProductFeeder
   /// </summary>
   public class Product
   {
-
+    /// <summary>
+    /// Name of product
+    /// </summary>
+    public string name { get; set; }
+    /// <summary>
+    /// Catagores pf product
+    /// </summary>
+    public string[] Categories { get; set; }
+    /// <summary>
+    /// Development tools associated with the product
+    /// </summary>
+    public string[] DevelopmentTools { get; set; }
   }
 }
