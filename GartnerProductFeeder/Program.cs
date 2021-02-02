@@ -45,8 +45,6 @@ namespace GartnerProductFeeder
           throw;
         }
 
-        Console.ReadKey();
-
       }
       else
       {
