@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using GartnerProductFeeder.DbServices;
 using GartnerProductFeeder.ProductFeeder;
 using GartnerProductFeeder.ProductFeeder.Factory;
@@ -23,7 +24,16 @@ namespace GartnerProductFeeder.Controllers
     [Route("{source}")]
     public bool FeedProducts(string source)
     {
-      return ProductService.FeedProduct(source, configuration, connection);
+      try
+      {
+        return ProductService.FeedProduct(source, configuration, connection);
+      }
+      catch (Exception e)
+      {
+        Console.WriteLine(e);
+        throw;
+      }
+      
     }
 
   }
