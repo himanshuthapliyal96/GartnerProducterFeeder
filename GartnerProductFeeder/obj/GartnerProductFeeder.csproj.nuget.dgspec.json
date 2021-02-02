@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder\\GartnerProductFeeder.csproj": {}
+    "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder\\GartnerProductFeeder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder\\GartnerProductFeeder.csproj": {
+    "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder\\GartnerProductFeeder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder\\GartnerProductFeeder.csproj",
+        "projectUniqueName": "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder\\GartnerProductFeeder.csproj",
         "projectName": "GartnerProductFeeder",
-        "projectPath": "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder\\GartnerProductFeeder.csproj",
+        "projectPath": "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder\\GartnerProductFeeder.csproj",
         "packagesPath": "C:\\Users\\u20o91\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder\\obj\\",
+        "outputPath": "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

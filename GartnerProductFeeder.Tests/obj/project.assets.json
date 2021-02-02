@@ -4836,11 +4836,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder.Tests\\GartnerProductFeeder.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder.Tests\\GartnerProductFeeder.Tests.csproj",
       "projectName": "GartnerProductFeeder.Tests",
-      "projectPath": "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder.Tests\\GartnerProductFeeder.Tests.csproj",
+      "projectPath": "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder.Tests\\GartnerProductFeeder.Tests.csproj",
       "packagesPath": "C:\\Users\\u20o91\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder.Tests\\obj\\",
+      "outputPath": "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4861,8 +4861,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder\\GartnerProductFeeder.csproj": {
-              "projectPath": "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder\\GartnerProductFeeder.csproj"
+            "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder\\GartnerProductFeeder.csproj": {
+              "projectPath": "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder\\GartnerProductFeeder.csproj"
             }
           }
         }

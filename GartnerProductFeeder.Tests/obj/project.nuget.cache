@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9OjWSTitSBaOcCL4gl8xIkr1dQjRYyyKN12i+aFV/wtzZfTV0JYxp+QuC3MoeLYSSERotOjkGOpXrliEXUHzHg==",
+  "dgSpecHash": "oPQkIM93DL1jpme1y1XWUURAPMtrH3OaxjMiqJSm4HTBLeP26E7G8Ef6ncM9yeHWejB+oyTIyS6klAa3xV1scg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\u20o91\\source\\repos\\GartnerSolution\\GartnerProductFeeder.Tests\\GartnerProductFeeder.Tests.csproj",
+  "projectFilePath": "C:\\Users\\u20o91\\source\\repos\\GartnerProducterFeeder\\GartnerProductFeeder.Tests\\GartnerProductFeeder.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\u20o91\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\u20o91\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
