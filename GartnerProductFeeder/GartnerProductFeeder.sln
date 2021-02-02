@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GartnerProductFeeder", "GartnerProductFeeder.csproj", "{48951103-F452-4070-8308-1191EA8F67EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GartnerProductFeeder.Tests", "..\GartnerProductFeeder.Tests\GartnerProductFeeder.Tests.csproj", "{285036DA-1DA7-42E8-AAAE-127A261C3126}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{83EA68CB-11B4-4850-830F-FA538ADEC97A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48951103-F452-4070-8308-1191EA8F67EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48951103-F452-4070-8308-1191EA8F67EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48951103-F452-4070-8308-1191EA8F67EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48951103-F452-4070-8308-1191EA8F67EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285036DA-1DA7-42E8-AAAE-127A261C3126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285036DA-1DA7-42E8-AAAE-127A261C3126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285036DA-1DA7-42E8-AAAE-127A261C3126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285036DA-1DA7-42E8-AAAE-127A261C3126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{285036DA-1DA7-42E8-AAAE-127A261C3126} = {83EA68CB-11B4-4850-830F-FA538ADEC97A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DB1C3DE-2694-4D28-937A-6FB0F54F2831}
+	EndGlobalSection
+EndGlobal

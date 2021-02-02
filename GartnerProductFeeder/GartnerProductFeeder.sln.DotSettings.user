@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e0024936_002D9423_002D47b5_002D92de_002D45d14cfcd22a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ConnectWithNoOrWrongCredentialString" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::285036DA-1DA7-42E8-AAAE-127A261C3126::.NETCoreApp,Version=v3.1::GartnerProductFeeder.Tests.DbConnect.ConnectWithNoOrWrongCredentialString&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::285036DA-1DA7-42E8-AAAE-127A261C3126::.NETCoreApp,Version=v3.1::GartnerProductFeeder.Tests.ProductFeederServiceTest.ConnectWithNoOrWrongCredentialString&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::285036DA-1DA7-42E8-AAAE-127A261C3126::.NETCoreApp,Version=v3.1::GartnerProductFeeder.Tests.ProductFeederServiceTest.FeedProjectWithValidInputs&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::285036DA-1DA7-42E8-AAAE-127A261C3126::.NETCoreApp,Version=v3.1::GartnerProductFeeder.Tests.FactoryTest.TestToVerifyFactory&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
