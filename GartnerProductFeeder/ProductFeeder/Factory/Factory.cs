@@ -11,10 +11,11 @@ namespace GartnerProductFeeder.ProductFeeder.Factory
     /// <summary>
     /// Returns a valid factory object for a valid source
     /// </summary>
-    /// <param name="source"></param>
+    /// <param name="source">source from where data is comming</param>
     /// <returns></returns>
     public static IProductSource GetFactoryObject(string source)
     {
+      if(source == null) throw new Exception("Invalid Source!!");
       switch (source.ToLower())
       {
         case "capterra":
