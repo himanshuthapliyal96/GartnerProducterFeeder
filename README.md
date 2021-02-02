@@ -17,6 +17,13 @@ How to run code / tests?
  1.Open command prompt
  2.Change drive to the location where GartnerProductFeeder.exe is located
  3.Run command GartnerProductFeeder.exe import <source Eg:capterra> <drive location of source>
+ 
+To Run from web:
+1. Configure the AppSettings.json to specify the path of folder where data sources are stored in "ProductsSourcePath"
+   eg: ProductsSourcePath": "XXXXX\capterra.yaml"
+2. Run the services.
+3.Open postman and send a post request
+   eg: https://localhost:44328/api/GartnerProduct/capterra
 
 Tests
 All the tests are written using NUNIT.

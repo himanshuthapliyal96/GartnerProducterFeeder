@@ -7,11 +7,12 @@ using Microsoft.Extensions.Configuration;
 
 namespace GartnerProductFeeder.Controllers
 {
+  [Route("api/[controller]")]
   public class GartnerProductController : Controller
   {
     private readonly IConfiguration configuration;
     private readonly IDbConnect connection;
-    GartnerProductController(IConfiguration config,IDbConnect conn)
+    public GartnerProductController(IConfiguration config,IDbConnect conn)
     {
       configuration = config;
       connection = conn;
@@ -19,6 +20,7 @@ namespace GartnerProductFeeder.Controllers
     }
 
     [HttpPost]
+    [Route("{source}")]
     public bool FeedProducts(string source)
     {
       return ProductService.FeedProduct(source, configuration, connection);
