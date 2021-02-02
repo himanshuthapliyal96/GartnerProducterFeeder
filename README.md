@@ -24,6 +24,8 @@ To Run from web:
 2. Run the services.
 3.Open postman and send a post request
    eg: https://localhost:44328/api/GartnerProduct/capterra
+   
+Note: Databease conectivity is not implemented as of now.Will be handled as an extention if needed.
 
 Tests
 All the tests are written using NUNIT.
@@ -33,5 +35,6 @@ This code is just a rough framework to implement the ProductFeeder for Gartner.
 
 GartnerProductFeeder usses Factory pattern so that If new source is added then it is easy to extend the logic.
 DbConnect usses IOC so that in future If Mongo comes into picture the only places where dependencis are initaialized neesds to be changed.
+Custom exception handler can be implemented and added as a middleware.
 
 GIT:https://github.com/himanshuthapliyal96/GartnerProducterFeeder
