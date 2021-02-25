@@ -16,6 +16,10 @@ namespace GartnerProductFeeder
 {
   public class Startup
   {
+    /// <summary>
+    /// This is my start method
+    /// </summary>
+    /// <param name="configuration"></param>
     public Startup(IConfiguration configuration)
     {
       Configuration = configuration;
