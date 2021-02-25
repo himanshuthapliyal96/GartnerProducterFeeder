@@ -26,6 +26,7 @@ namespace GartnerProductFeeder
           .AddEnvironmentVariables()
           .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
+          //test repos
           IConfigurationRoot configuration = builder.Build();
           var services = new ServiceCollection();
           services.AddSingleton<IDbConnect>(s => new DbConnectSql(configuration));
